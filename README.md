@@ -7,6 +7,8 @@ python send_email.py
 ```
 
 ## Configuration
+You will need to set the file config.py. Below is a short description of the parameters.
+
 EMAIL_SENDER: Sender, it will appear in 'To' field.<br>
 EMAIL_SUBJECT: Subject of the email. It can have placeholders.<br>
 
@@ -33,7 +35,7 @@ The column name is without the $ symbol.
 ## Example
 ### Subject
 ```
-Happy chrismas $friend!
+Happy christmas $friend!
 ```
 
 ### Template
@@ -63,7 +65,7 @@ For the first line, this will be the result.
 ```
 From: <from config>
 To: Tim <tim@email.com>
-Subject: Happy chrismas Tim!
+Subject: Happy christmas Tim!
 Body:
 Dear Tim,
 
